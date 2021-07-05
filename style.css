@@ -1,5 +1,6 @@
 body{
     font-family: 'Source Serif Pro', serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -10,8 +11,9 @@ h1{
 .or{
     color: purple;
 }
-section{
+.flexible-area{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -34,4 +36,27 @@ font-weight: 900;
     font-weight: 900;
     text-decoration: none;
     padding: 10px 40px;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px;
+    
+}
+#web-dev-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-star{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,pink);
+    border-image-slice: 1;
 }
